@@ -14,11 +14,12 @@
     "websiteport": "Required. Port of the website (For HTTPS use port 80)",
     "keychannel": "Required. Discord Textchannel ID where all premium keys should be posted in",
     "db": {
-        "user": "Required. db user",
-		"password": "Required. db password",
-		"host": "Required. db host (Example: localhost for local mongoDB)",
-		"port": "Required. db port (Example: 27017)"
+        "user": "bot",
+		"password": "poepje000",
+		"host": "localhost",
+		"port": "27017"
     },
+    "db": "mongodb+srv://hendrik:poepje000@cluster0.ybvrm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     "dblAuthorization": "Autorization Code for API verification",
     "botMainDiscordServer": "Required. The main/support Discord Server ID of this bot",
     "log_channels": {
