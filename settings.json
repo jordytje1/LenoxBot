@@ -1,7 +1,7 @@
 {
     "owners": ["Required", "UserID", "UserID"],
     "administrators": ["UserID", "UserID", "UserID"],
-    "token": "NzA3NTY2MjgyMzQxMzUxNDU0.XrKqcw.EwvN9tAzp_WNP24oAWsLbBX7LOA",
+    "token": "NzA3NTY2MjgyMzQxMzUxNDU0.XrKqcw.hXmf-Td2P__el-SeYu40t_goTsU",
     "prefix": "Required. Standard Prefix",
     "auddKey": "Audd Lyrics API Key",
     "googleKey": "Google Custom Search API Key",
