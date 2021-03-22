@@ -30,7 +30,7 @@ const winstonLogger = winston.createLogger({
 });
 
 const shardingManager = new Discord.ShardingManager('./lenoxbot.js', {
-  token: client.login(process.env.BOT_TOKEN);
+  token: settings.token
 });
 
 shardingManager.spawn().then(() => {
