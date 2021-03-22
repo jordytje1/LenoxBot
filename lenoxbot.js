@@ -89,7 +89,8 @@ fs.readdir('./events/', (err, files) => {
 });
 
 client.setProvider(new LenoxBotSettingsProvider(settings));
-client.login(token);
+
+client.login(process.env.BOT_TOKEN);
 
 client.registry
   .registerDefaultTypes()
